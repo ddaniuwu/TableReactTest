@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AtmosphereDataTable from './Table'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <AtmosphereDataTable/>
   </React.StrictMode>,
   document.getElementById('root')
 );
